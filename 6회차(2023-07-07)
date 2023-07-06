@@ -16,6 +16,8 @@ assertEquals(Money.dollar(10), sum);
 
 이야기 해보고 싶었던 점
 
+역으로 간다는 의미가 정확히 뭘까 ?
+
 14장
 
 Money에 환율을 알게 하는게 어색하니깐 Bank로 책임을 옮겼다고 느꼈음
@@ -25,4 +27,16 @@ Money에 환율을 알게 하는게 어색하니깐 Bank로 책임을 옮겼다�
 
 testArrayEquals 이 테스트는 갑자기 어디갔닝 싶었음 ..
 
+15장
+138쪽에 테스트를  왜 첨에 Expression 으로 설정 했을까 싶었음 나라면 바로 Money로 했었음 뭘 보여주려고 했을까 ?
+테스트 맞추려고 어느정도 막 어거지로 하다보니깐 뭔가 점점 책임들이 이동해가는 느낌이 들었음.
+
+Money 에 Expression을 구현 한게 조금 어색하다고 느꼈는데
+Money 를 Expression으로 바꾸려는 큰 그림이었나부다 싶음
+
+141쪽에서
+Expression fiveBucks = Money.dollar(5);
+Expression tenFrancs = Money.franc(10);  요부분이 살짝 어색함.
+
+Money 가 나오는건 안어색하다고 생각하는데 합이나 곱의 결과로 식이 나오는것도 안어색한데 위에것이 조금 어색했음.
 
