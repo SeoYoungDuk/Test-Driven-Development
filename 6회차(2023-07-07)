@@ -17,3 +17,12 @@ assertEquals(Money.dollar(10), sum);
 이야기 해보고 싶었던 점
 
 14장
+
+Money에 환율을 알게 하는게 어색하니깐 Bank로 책임을 옮겼다고 느꼈음
+2라는 값을 없애기 위헤 testArrayEquals을 만듬
+
+조금 어이 없었던게 2라는 값을 없애기 위해서 이런저런 작업을 하다가 갑자기 testIdentityRate 계산 할때는 그냥 1을 남겨 버렸네 싶었음 ..
+
+testArrayEquals 이 테스트는 갑자기 어디갔닝 싶었음 ..
+
+
