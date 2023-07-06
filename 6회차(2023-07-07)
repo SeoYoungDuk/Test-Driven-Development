@@ -4,6 +4,16 @@
 
 13장 
 인상 깊었던 점
-가짜구현 에서 진짜 구현으로 작업 했었는데 순방향으로 작업함.
+
+나였으면  굳이 122쪽에 augend, addend 로 나누지 않고 아래처럼 했을 것 같음.
+Sum sum = result
+assertEquals(Money.dollar(10), sum);
+
+126페이지 에서 bank 에 Expression 말고, money 를 인자로 넘겼고,
+테스트 실패해서 통과하기 위해 instanceOf 사용해서 그냥 money 타입이면 casting 해서 넘김(이부분이 제일 인상 깊음)
+
+127에서 Expression에 reduce 추가해서 지저분한 부분들을 해결
 
 이야기 해보고 싶었던 점
+
+14장
